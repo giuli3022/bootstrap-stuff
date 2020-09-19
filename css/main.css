@@ -1,0 +1,27 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+.jumbotron {
+    background-color: #ff9011;
+}
+
+.btn {
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ff9011;
+}
+
+.btn:hover {
+    color: aliceblue;
+    background-color: #bb6d14;
+}
+
+footer {
+    background-color: #ff9011;
+}
+
+.card-hotel {
+    flex: 1 250px;
+    padding: 15px 5px;
+}
