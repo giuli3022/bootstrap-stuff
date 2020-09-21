@@ -1,24 +1,41 @@
 body {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .jumbotron {
-    background-color: #ff9011;
+    background-color: #115cff;
+    box-sizing: border-box;
 }
 
 .btn {
+    background-color: #115cff;
     color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #ff9011;
 }
 
 .btn:hover {
     color: aliceblue;
-    background-color: #bb6d14;
+    font-weight: 300;
+    background-color: #568cca;
 }
 
 footer {
-    background-color: #ff9011;
+    background-color: #115cff;
+    width: 100%;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+footer a {
+    font-size: 14px;
+    color: aliceblue;
+}
+
+.card-box {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
 }
 
 .card-hotel {

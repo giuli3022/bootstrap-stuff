@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css" ; <link
-        href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
 
 
     <title>Explore!</title>
@@ -17,6 +17,39 @@
 
 <body>
 
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Explore!</a>
+        <button class="navbar-toggler" 
+                type="button" 
+                data-toggle="collapse" 
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./about.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Precios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Términos y condiciones</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
@@ -26,6 +59,12 @@
     </div>
 
     <div class="container">
+        
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Home</li>
+            </ol>
+        </nav>
 
         <div class="row">
             <div class="col-sm">
@@ -48,7 +87,7 @@
             </div>
         </div>
 
-        <div class="d-flex flex-wrap">
+        <div class="card-box d-flex flex-wrap">
 
             <div class="card-hotel" style="width: 18rem;">
                 <h5 class="card-title">Coatí Hostel</h5>
@@ -92,29 +131,29 @@
                 <button class="btn">Reserva ya!</button>
             </div>
         </div>
-
-        <footer>
-            <div class="row">
-                <div class="col-sm-4 d-flex flex-column">
-                    <a href="www.facebook.com">facebook</a>
-                    <a href="www.twitter.com">twitter</a>
-                    <a href="www.instagram.com">instagram</a>
-                </div>
-                <div class="col-sm-4">
-                    <address>
-                        Santa Fe 306, Buenos Aires, Argentina
-                        +1111111111
-                        contacto@explorehoteles.com
-                    </address>
-                </div>
-                <div class="col-sm-4 d-flex flex-column align-items-end">
-                    <a href="www.facebook.com">Contacto</a>
-                    <a href="www.twitter.com">Historia</a>
-                    <a href="www.instagram.com">Precios</a>
-                </div>
-            </div>
-        </footer>
     </div>
+    
+            <footer>
+                <div class="row">
+                    <div class="col-sm-4 d-flex flex-column">
+                        <a href="www.facebook.com">facebook</a>
+                        <a href="www.twitter.com">twitter</a>
+                        <a href="www.instagram.com">instagram</a>
+                    </div>
+                    <div class="col-sm-4">
+                        <address>
+                            Santa Fe 306, Buenos Aires, Argentina
+                            +1111111111
+                            contacto@explorehoteles.com
+                        </address>
+                    </div>
+                    <div class="col-sm-4 d-flex flex-column align-items-end">
+                        <a href="www.facebook.com">Contacto</a>
+                        <a href="www.twitter.com">Historia</a>
+                        <a href="www.instagram.com">Precios</a>
+                    </div>
+                </div>
+            </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
