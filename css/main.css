@@ -46,3 +46,13 @@ footer a {
 .adress-icon {
     padding-right: 10px;
 }
+
+.title-contact {
+    padding-left: 30px;
+}
+
+.contact-form {
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
