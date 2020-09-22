@@ -1,5 +1,5 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 .jumbotron {
@@ -7,13 +7,14 @@ body {
     box-sizing: border-box;
 }
 
-.btn {
+.btn-reserva {
     background-color: #115cff;
+    width: 100%;
     color: aliceblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 0;
 }
 
-.btn:hover {
+.btn-reserva:hover {
     color: aliceblue;
     font-weight: 300;
     background-color: #568cca;
@@ -41,6 +42,7 @@ footer a {
 .card-hotel {
     flex: 1 250px;
     padding: 15px 5px;
+    margin: 15px;
 }
 
 .adress-icon {
